@@ -1,7 +1,7 @@
 import Layout from "./components/layout/Layout";
 import { CartProvider } from "./context/CartContext";
 import About from "./pages/About";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";

@@ -24,7 +24,7 @@ export default {
         },
       },
       backgroundImage: {
-        "hero-bg": "url('./hero.png')",
+        "hero-bg": "url('./hero.webp')",
       },
     },
   },

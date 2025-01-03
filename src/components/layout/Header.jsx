@@ -2,7 +2,7 @@ import Navigation from "./navigation";
 
 const Header = () => {
   return (
-    <header className="h-[75vh] bg-hero-bg bg-cover bg-center">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-opacity-90">
       <Navigation />
     </header>
   );
