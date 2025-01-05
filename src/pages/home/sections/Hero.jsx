@@ -105,7 +105,7 @@ const HeroCarousel = () => {
                     {slide.title}
                   </h1>
 
-                  <div className="hidden md:blockflex items-baseline justify-center gap-4 mb-10">
+                  <div className="hidden md:flex items-baseline justify-center gap-4 mb-10">
                     <p className="text-2xl text-gray-200">{slide.subtitle}</p>
                     <span className="text-3xl font-bold text-[#D69F17]">
                       {slide.price}
