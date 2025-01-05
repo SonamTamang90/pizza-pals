@@ -4,6 +4,7 @@ import Menu from "../Menu";
 import MenuSection from "./sections/MenuSection";
 import TestimonialSection from "./sections/TestimonialSection";
 import LocationSection from "./sections/LocationSection";
+import GallerySection from "./sections/GallerySection";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <MenuSection />
       <TestimonialSection />
       <LocationSection />
+      <GallerySection />
 
       {/* Menu Section */}
       {/* <section className="py-20">
