@@ -1,18 +1,24 @@
-import MenuTab from "@/components/menu/MenuTab";
 import { Clock, Medal, Utensils } from "lucide-react";
-import HeroSection from "./components/HeroSection";
+import HeroSection from "./sections/Hero";
+import Menu from "../Menu";
+import MenuSection from "./sections/MenuSection";
+import TestimonialSection from "./sections/TestimonialSection";
+import LocationSection from "./sections/LocationSection";
 
 const Home = () => {
   return (
     <div className="">
       <HeroSection />
+      <MenuSection />
+      <TestimonialSection />
+      <LocationSection />
 
       {/* Menu Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 py-12">
           <div className="max-w-xl mx-auto text-center mb-8">
             <h2 className="font-grotesk tracking-wide uppercase font-bold text-5xl mb-4">
-              Made by Napoletans
+              Explore Our Menu
             </h2>
             <p className="text-lg text-zinc-600">
               Crispy, chewy, and perfectly charred – our artisanal pizzas are
@@ -22,11 +28,11 @@ const Home = () => {
         </div>
 
         <MenuTab />
-      </section>
+      </section> */}
       {/* Menu Section */}
 
       {/* About Section */}
-      <section className="bg-zinc-50 py-16">
+      {/* <section className="bg-zinc-50 py-16">
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
@@ -34,7 +40,7 @@ const Home = () => {
                 Nothing brings people together like a good pizza
               </h2>
               <p className="text-lg text-gray-700">
-                Welcome to Artisan Slice, where passion for authentic Italian
+                Welcome to Pizza Pal's, where passion for authentic Italian
                 pizza meets modern creativity. Since 1995, we've been crafting
                 the perfect pizzas using time-honored techniques and the finest
                 ingredients sourced both locally and from Italy.
@@ -65,16 +71,16 @@ const Home = () => {
               <img
                 src="/about.png"
                 alt="Pizza maker crafting dough"
-                className="rounded-lg shadow-lg object-cover h-full w-full"
+                className="rounded-lg shadow-lg object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*About Section */}
 
       {/* Our locations Section */}
-      <section className="pb-20">
+      {/* <section className="pb-20">
         <div className="max-w-6xl mx-auto px-4 py-12">
           <div className="max-w-xl mx-auto text-center mb-8">
             <h2 className="font-grotesk tracking-wide uppercase font-bold text-5xl mb-4">
@@ -132,7 +138,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Our locations Section */}
     </div>
   );

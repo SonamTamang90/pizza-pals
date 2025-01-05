@@ -1,4 +1,4 @@
-import Layout from "./components/layout/Layout";
+import Layout from "./components/layout/GlobalLayout";
 import { CartProvider } from "./context/CartContext";
 import About from "./pages/About";
 import Home from "./pages/home/Home";

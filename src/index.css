@@ -7,3 +7,19 @@
     @apply dark:bg-dark-900;
   }
 }
+
+@keyframes ken-burns {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-ken-burns {
+  animation: ken-burns 20s infinite ease-in-out;
+}
