@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { complementaryMenu } from "@/data/menuData";
+import { complementeriesMenu } from "@/data/menuData";
 import { Beer, CakeSlice, Croissant, Salad } from "lucide-react";
 
 const MenuItem = ({ image, title, description, price }) => (
@@ -48,7 +48,7 @@ const ComplementarySection = () => {
               <span className={`text-lg`}>Starters</span>
             </TabsTrigger>
             <TabsTrigger
-              value="nonvage"
+              value="pasteries"
               className="group flex flex-col items-center gap-2"
             >
               <Croissant
@@ -81,23 +81,34 @@ const ComplementarySection = () => {
             value="starters"
             className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4"
           >
-            {complementaryMenu.starters.map((item, index) => (
+            {complementeriesMenu.starters.map((item, index) => (
               <MenuItem key={index} {...item} />
             ))}
           </TabsContent>
 
-          {/* Add similar TabsContent for other categories */}
-          <TabsContent value="nonvage">
-            {/* Similar menu items for nonvage */}
+          <TabsContent
+            value="pasteries"
+            className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4"
+          >
+            {complementeriesMenu.pasteries.map((item, index) => (
+              <MenuItem key={index} {...item} />
+            ))}
           </TabsContent>
-          <TabsContent value="vegetarian">
-            {/* Similar menu items for vegetarian */}
+          <TabsContent
+            value="dessert"
+            className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4"
+          >
+            {complementeriesMenu.desserts.map((item, index) => (
+              <MenuItem key={index} {...item} />
+            ))}
           </TabsContent>
-          <TabsContent value="dessert">
-            {/* Similar menu items for dessert */}
-          </TabsContent>
-          <TabsContent value="drinks">
-            {/* Similar menu items for drinks */}
+          <TabsContent
+            value="drinks"
+            className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4"
+          >
+            {complementeriesMenu.drinks.map((item, index) => (
+              <MenuItem key={index} {...item} />
+            ))}
           </TabsContent>
         </Tabs>
       </div>

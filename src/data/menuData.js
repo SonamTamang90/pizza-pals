@@ -68,7 +68,7 @@ export const pizzas = [
   },
 ];
 
-export const complementaryMenu = {
+export const complementeriesMenu = {
   starters: [
     {
       image: "/images/starters/starter-1.png",
@@ -77,7 +77,7 @@ export const complementaryMenu = {
       price: "12.00",
     },
     {
-      image: "/images/starters/starter-2.png",
+      image: "/images/pastries/pastry-1.png",
       title: "Chicken breast burger",
       description: "Lorem ipsum has been the industry.",
       price: "10.00",
@@ -107,5 +107,88 @@ export const complementaryMenu = {
       price: "08.00",
     },
   ],
-  // Add similar data structure for other tabs
+  pasteries: [
+    {
+      image: "/images/pastries/pastry-1.png",
+      title: "Boiled organic egg",
+      description: "Lorem ipsum has been the industry.",
+      price: "12.00",
+    },
+    {
+      image: "/images/pastries/pastry-2.png",
+      title: "Chicken breast burger",
+      description: "Lorem ipsum has been the industry.",
+      price: "10.00",
+    },
+    {
+      image: "/images/pastries/pastry-3.png",
+      title: "Medium spicy chips",
+      description: "Lorem ipsum has been the industry.",
+      price: "08.00",
+    },
+    {
+      image: "/images/pastries/pastry-4.png",
+      title: "Medium spicy chips",
+      description: "Lorem ipsum has been the industry.",
+      price: "08.00",
+    },
+  ],
+  desserts: [
+    {
+      image: "/images/desserts/dessert-1.png",
+      title: "Boiled organic egg",
+      description: "Lorem ipsum has been the industry.",
+      price: "12.00",
+    },
+    {
+      image: "/images/desserts/dessert-2.png",
+      title: "Chicken breast burger",
+      description: "Lorem ipsum has been the industry.",
+      price: "10.00",
+    },
+    {
+      image: "/images/desserts/dessert-3.png",
+      title: "Medium spicy chips",
+      description: "Lorem ipsum has been the industry.",
+      price: "08.00",
+    },
+    {
+      image: "/images/desserts/dessert-4.png",
+      title: "Medium spicy chips",
+      description: "Lorem ipsum has been the industry.",
+      price: "08.00",
+    },
+    {
+      image: "/images/desserts/dessert-5.png",
+      title: "Medium spicy chips",
+      description: "Lorem ipsum has been the industry.",
+      price: "08.00",
+    },
+  ],
+  drinks: [
+    {
+      image: "/images/drinks/drink-1.png",
+      title: "Boiled organic egg",
+      description: "Lorem ipsum has been the industry.",
+      price: "12.00",
+    },
+    {
+      image: "/images/drinks/drink-2.png",
+      title: "Chicken breast burger",
+      description: "Lorem ipsum has been the industry.",
+      price: "10.00",
+    },
+    {
+      image: "/images/drinks/drink-3.png",
+      title: "Medium spicy chips",
+      description: "Lorem ipsum has been the industry.",
+      price: "08.00",
+    },
+    {
+      image: "/images/drinks/drink-4.png",
+      title: "Medium spicy chips",
+      description: "Lorem ipsum has been the industry.",
+      price: "08.00",
+    },
+  ],
 };
